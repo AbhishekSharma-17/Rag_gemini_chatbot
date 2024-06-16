@@ -65,12 +65,12 @@ if prompt1:
     print("Response time :",time.process_time()-start)
     st.write(response['answer'])
 
-    # With a streamlit expander
-    # with st.expander("Document Similarity Search"):
-    #     # Find the relevant chunks
-    #     for i, doc in enumerate(response["context"]):
-    #         st.write(doc.page_content)
-    #         st.write("--------------------------------")
+    With a streamlit expander
+    with st.expander("Document Similarity Search"):
+        # Find the relevant chunks
+        for i, doc in enumerate(response["context"]):
+            st.write(doc.page_content)
+            st.write("--------------------------------")
 
 
 
