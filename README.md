@@ -25,3 +25,7 @@ This project is a Streamlit-based application that provides a Q&A interface usin
    ```bash
    git clone https://github.com/your-username/groq-document-chatbot.git
    cd groq-document-chatbot
+
+   bash
+Copy code
+pip install -r requirements.txt
