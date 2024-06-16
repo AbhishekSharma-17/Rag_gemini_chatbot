@@ -1,6 +1,6 @@
 # Rag_gemini_chatbot
 
-This project is a Streamlit-based application that provides a Q&A interface using Groq's generative AI models. It processes documents to answer user queries based on the content of those documents. The application leverages several components from the LangChain library to handle text splitting, prompting, and document retrieval.
+This project is a Streamlit-based application that provides a Q&A interface using Geini's generative AI models. It processes documents to answer user queries based on the content of those documents. The application leverages several components from the LangChain library to handle text splitting, prompting, and document retrieval.
 
 ## Features
 
