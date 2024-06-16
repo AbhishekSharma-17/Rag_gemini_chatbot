@@ -1,29 +1,26 @@
-# Rag_gemini_chatbot
+The Groq Document Chatbot Q&A is a Streamlit-based web application designed to answer questions based on documents loaded from a specified directory. Utilizing advanced language processing and AI technologies, this application provides accurate responses to user queries by leveraging the power of Google Generative AI Embeddings and FAISS for efficient similarity search among document embeddings.
 
-This project is a Streamlit-based application that provides a Q&A interface using Geini's generative AI models. It processes documents to answer user queries based on the content of those documents. The application leverages several components from the LangChain library to handle text splitting, prompting, and document retrieval.
+Features
+Document Processing: Automatically processes PDF documents from a specified directory to extract text content.
+Question Answering: Provides answers to user queries based on the processed documents.
+Efficient Search: Uses FAISS to perform fast similarity searches among document embeddings for relevant information retrieval.
+User-Friendly Interface: Built with Streamlit, offering an intuitive interface for users to input their questions and receive answers.
+Dependencies
+Python 3.x
+Streamlit
+Langchain-Groq
+PyPDF2
+Faiss-CPU
+Langchain-Google-GenAI
+Dotenv
+Langchain-Community
+Ensure all dependencies are installed by running pip install -r requirements.txt.
 
-## Features
-
-- **Document-Based Q&A**: Answers user questions based on the context provided by uploaded documents.
-- **Streamlit Interface**: Simple and interactive web application interface.
-- **Integration with Groq AI**: Utilizes Groq's generative AI models for processing and answering queries.
-- **Vector Storage with FAISS**: Efficiently retrieves relevant document sections using FAISS vector storage.
-- **Environment Configuration**: Uses environment variables for API keys and configuration settings.
-
-## Prerequisites
-
-- Python 3.8+
-- Streamlit
-- LangChain library
-- FAISS
-- dotenv
-
-## Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/your-username/groq-document-chatbot.git
-   cd groq-document-chatbot
-
- 
+Setup
+Clone the repository: git clone https://your-repository-url.git
+Navigate to the project directory: cd Groq-Document-Chatbot-QA
+Install the dependencies: pip install -r requirements.txt
+Set up environment variables (GROQ_API_KEY, GOOGLE_API_KEY) in a .env file or directly in your system's environment variables.
+Run the application: streamlit run app.py
+Usage
+Upon launching the application, you will be greeted with a simple interface where you can enter your question. After submitting your question, the application will process the query against the loaded documents and display the most relevant answer.
